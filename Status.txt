@@ -1,0 +1,8 @@
+Requires text file in format:
+Cycle index | Current (any units) | Charge capacity | Discharge capacity | ***Voltage***
+(voltage function to be added - no voltage column requirement yet)
+Most explanatory comments present (currently missing at end)
+
+Inputs: text file name and path
+Outputs: .csv files containing Capacity vs Voltage and Capacity vs Cycles for charge and discharge
+             (Capacity vs voltage files columns corresponding to cycles)
